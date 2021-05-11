@@ -223,7 +223,7 @@ for i in range(len(users)):
 
     
 start_time = time.time()
-for epoch in range(10000000000):
+for epoch in range(200):
     for user_triplets in all_users_triplets:
         group_loss = 0
         for group in user_triplets:
